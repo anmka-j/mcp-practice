@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const getOpportunities = require("./opportunities");
+const getOpportunities = require("./resources/opportunityAgent");
 
 const student = JSON.parse(
   fs.readFileSync("../resources/student.json", "utf8")
